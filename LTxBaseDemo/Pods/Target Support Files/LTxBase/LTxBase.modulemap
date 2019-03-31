@@ -1,0 +1,6 @@
+framework module LTxBase {
+  umbrella header "LTxBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

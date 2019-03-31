@@ -1,0 +1,6 @@
+framework module Pods_LTxBaseDemo {
+  umbrella header "Pods-LTxBaseDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

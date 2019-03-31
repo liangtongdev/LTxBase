@@ -1,0 +1,43 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - LTxBase (0.0.1):
+    - DZNEmptyDataSet
+    - LTxBase/Core (= 0.0.1)
+    - LTxConfig
+    - MBProgressHUD
+    - MJRefresh
+  - LTxBase/Core (0.0.1):
+    - DZNEmptyDataSet
+    - LTxConfig
+    - MBProgressHUD
+    - MJRefresh
+  - LTxConfig (0.0.1):
+    - LTxConfig/Core (= 0.0.1)
+  - LTxConfig/Core (0.0.1)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.16)
+
+DEPENDENCIES:
+  - LTxBase (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - LTxConfig
+    - MBProgressHUD
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  LTxBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  LTxBase: 246689de4d9dbc55967aecce578b331b7eef6e1a
+  LTxConfig: 210c96988124f9debc08fc6be7153903500259e3
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+
+PODFILE CHECKSUM: 37ce24064a9ce174b63daa228db4a5e200c747c2
+
+COCOAPODS: 1.7.0.beta.3

@@ -1,0 +1,43 @@
+{
+  "name": "LTxBase",
+  "version": "0.0.1",
+  "summary": "iOS基础组件.",
+  "license": "MIT",
+  "authors": {
+    "liangtong": "liangtongdev@163.com"
+  },
+  "homepage": "https://github.com/liangtongdev/LTxBase",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/liangtongdev/LTxBase.git",
+    "tag": "0.0.1",
+    "submodules": true
+  },
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "LTxConfig": [
+
+    ]
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "LTxBase/*.{h,m}",
+      "public_header_files": "LTxBase/*.h"
+    }
+  ]
+}
