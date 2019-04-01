@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MBProgressHUD/MBProgressHUD.h>
+#import <LTxCategories/LTxCategories.h>
 #import "LTxBaseRefresh.h"//刷新
 #import "LTxBaseEmptyDataSet.h"//空画面协议
 NS_ASSUME_NONNULL_BEGIN

@@ -9,5 +9,10 @@
 #define LTxBase_h
 
 #import "LTxBaseNavigationController.h"
+#import "LTxBaseTableViewController.h"
+#import "LTxBaseViewController.h"
+
+
+
 
 #endif /* LTxBase_h */

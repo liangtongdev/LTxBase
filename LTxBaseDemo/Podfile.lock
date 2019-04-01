@@ -2,15 +2,54 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - LTxBase (0.0.1):
     - DZNEmptyDataSet
+    - LTxBase/Controller (= 0.0.1)
     - LTxBase/Core (= 0.0.1)
+    - LTxBase/View (= 0.0.1)
+    - LTxBase/ViewModel (= 0.0.1)
+    - LTxCategories
+    - LTxConfig
+    - MBProgressHUD
+    - MJRefresh
+  - LTxBase/Controller (0.0.1):
+    - DZNEmptyDataSet
+    - LTxBase/View
+    - LTxBase/ViewModel
+    - LTxCategories
     - LTxConfig
     - MBProgressHUD
     - MJRefresh
   - LTxBase/Core (0.0.1):
     - DZNEmptyDataSet
+    - LTxBase/Controller
+    - LTxCategories
     - LTxConfig
     - MBProgressHUD
     - MJRefresh
+  - LTxBase/View (0.0.1):
+    - DZNEmptyDataSet
+    - LTxCategories
+    - LTxConfig
+    - MBProgressHUD
+    - MJRefresh
+  - LTxBase/ViewModel (0.0.1):
+    - DZNEmptyDataSet
+    - LTxCategories
+    - LTxConfig
+    - MBProgressHUD
+    - MJRefresh
+  - LTxCategories (0.0.6):
+    - LTxCategories/Common (= 0.0.6)
+    - LTxCategories/Core (= 0.0.6)
+    - LTxCategories/NSFoundation (= 0.0.6)
+    - LTxCategories/UIKit (= 0.0.6)
+  - LTxCategories/Common (0.0.6)
+  - LTxCategories/Core (0.0.6):
+    - LTxCategories/NSFoundation
+    - LTxCategories/UIKit
+  - LTxCategories/NSFoundation (0.0.6):
+    - LTxCategories/Common
+  - LTxCategories/UIKit (0.0.6):
+    - LTxCategories/Common
   - LTxConfig (0.0.1):
     - LTxConfig/Core (= 0.0.1)
   - LTxConfig/Core (0.0.1)
@@ -23,6 +62,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DZNEmptyDataSet
+    - LTxCategories
     - LTxConfig
     - MBProgressHUD
     - MJRefresh
@@ -33,7 +73,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  LTxBase: 246689de4d9dbc55967aecce578b331b7eef6e1a
+  LTxBase: e7994b3b276122c9624b1f5660ccf99d0a2a4574
+  LTxCategories: fff6120bb9b8ed94cfe4c17ba404709c03cb64ec
   LTxConfig: 210c96988124f9debc08fc6be7153903500259e3
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd

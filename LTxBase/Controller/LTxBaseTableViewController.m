@@ -73,21 +73,4 @@
     _emptyDataSet.refreshAction = refreshAction;
 }
 
-
-#pragma mark - KVO
--(void)addEmptyDataSetKVO{
-    [self.emptyDataSet addObserver:self forKeyPath:@"emptyImage" options:NSKeyValueObservingOptionNew context:nil];
-}
--(void)removeEmptyDataSetKVO{
-    [self.emptyDataSet removeObserver:self forKeyPath:@"emptyImage" context:nil];
-}
-
-- (void)observeValueForKeyPath:(NSString *)keyPath
-                      ofObject:(id)object
-                        change:(NSDictionary<NSKeyValueChangeKey,id> *)change
-                       context:(void *)contex{
-    
-}
-
-
 @end

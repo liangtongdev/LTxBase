@@ -1,6 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-LTxBaseDemo/Pods-LTxBaseDemo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
 ${BUILT_PRODUCTS_DIR}/LTxBase/LTxBase.framework
+${BUILT_PRODUCTS_DIR}/LTxCategories/LTxCategories.framework
 ${BUILT_PRODUCTS_DIR}/LTxConfig/LTxConfig.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework

@@ -13,6 +13,8 @@
 - (void)prepare{
     [super prepare];
     
+    //从Config.plist中获取
+    
     //    //设置普通状态的动画图片
     //    [self setImages:[NSArray arrayWithObject:[UIImage imageWithContentsOfFile: [[NSBundle mainBundle] pathForResource:@"LT.bundle/Loading/table_refresh_pulling" ofType:@"png"]]]
     //           forState:MJRefreshStateIdle];
@@ -69,12 +71,6 @@
     LTxBaseMJRefreshHeader *header = [LTxBaseMJRefreshHeader headerWithRefreshingBlock:^{
         if(pullDownRefresh){//加载数据
             pullDownRefresh();
-            //            pullDownRefresh(^{
-            //                dispatch_async(dispatch_get_main_queue(), ^{
-            //                    [self.tableView reloadData];
-            //                    [self.tableView.mj_header endRefreshing];
-            //                });
-            //            });
         }
     }];
     // 设置自动切换透明度(在导航栏下面自动隐藏)

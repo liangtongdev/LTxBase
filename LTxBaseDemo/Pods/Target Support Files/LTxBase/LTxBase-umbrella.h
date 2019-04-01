@@ -10,12 +10,13 @@
 #endif
 #endif
 
-#import "LTxBase.h"
-#import "LTxBaseEmptyDataSet.h"
 #import "LTxBaseNavigationController.h"
-#import "LTxBaseRefresh.h"
 #import "LTxBaseTableViewController.h"
 #import "LTxBaseViewController.h"
+#import "LTxBase.h"
+#import "LTxBaseRefresh.h"
+#import "LTxBaseTableViewCell.h"
+#import "LTxBaseEmptyDataSet.h"
 
 FOUNDATION_EXPORT double LTxBaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char LTxBaseVersionString[];
