@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   
   s.frameworks = "Foundation", "UIKit"
 
-  #  s.default_subspecs = 'Controllers'
 
   # View
   s.subspec 'View' do |view|

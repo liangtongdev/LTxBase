@@ -16,16 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     self.view.backgroundColor = [LTxConfig sharedInstance].viewBackgroundColor;
-    _emptyDataSet = [[LTxBaseEmptyDataSet alloc] init];
+    
+    _emptyDataSet = [LTxBaseEmptyDataSet defaultDataSet];
     __weak __typeof(self) weakSelf = self;
     _emptyDataSet.emptyDataSetChangeCallback = ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             [weakSelf.tableView reloadEmptyDataSet];
         });
     };
+    
     self.tableView.emptyDataSetSource = _emptyDataSet;
     self.tableView.emptyDataSetDelegate = _emptyDataSet;
     [self.tableView reloadEmptyDataSet];

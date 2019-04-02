@@ -50,9 +50,9 @@ PODS:
     - LTxCategories/Common
   - LTxCategories/UIKit (0.0.6):
     - LTxCategories/Common
-  - LTxConfig (0.0.1):
-    - LTxConfig/Core (= 0.0.1)
-  - LTxConfig/Core (0.0.1)
+  - LTxConfig (0.0.2):
+    - LTxConfig/Core (= 0.0.2)
+  - LTxConfig/Core (0.0.2)
   - MBProgressHUD (1.1.0)
   - MJRefresh (3.1.16)
 
@@ -75,7 +75,7 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   LTxBase: e7994b3b276122c9624b1f5660ccf99d0a2a4574
   LTxCategories: fff6120bb9b8ed94cfe4c17ba404709c03cb64ec
-  LTxConfig: 210c96988124f9debc08fc6be7153903500259e3
+  LTxConfig: a7b03ac2eabfe4369f990d187c7a281218bf416c
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
 

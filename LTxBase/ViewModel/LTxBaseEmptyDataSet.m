@@ -8,6 +8,13 @@
 #import "LTxBaseEmptyDataSet.h"
 
 @implementation LTxBaseEmptyDataSet
+
++(LTxBaseEmptyDataSet*)defaultDataSet{
+
+    LTxBaseEmptyDataSet* dataSet = [[LTxBaseEmptyDataSet alloc] init];
+    return dataSet;
+}
+
 #pragma mark - 空画面及错误提示
 - (NSAttributedString *)titleForEmptyDataSet:(UIScrollView *)scrollView{
     return _attributedTitle;
@@ -37,10 +44,10 @@
 - (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView{
     if (_emptyImage) {
         return _emptyImage;
-    }else if (_emptyDescription || _attributedEmptyDescription) {
-        return [UIImage imageNamed:@"ic_error"];//发生错误了
+    }else if (_errorOccurred) {
+        return [LTxConfig sharedInstance].errorEmptyImage;
     }else{
-        return [UIImage imageNamed:@"ic_no_data"];//初始画面
+        return [LTxConfig sharedInstance].emptyImage;
     }
 }
 
