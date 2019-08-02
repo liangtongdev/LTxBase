@@ -13,6 +13,7 @@
 #import "LTxBaseViewController.h"
 
 
-
+#import "LTxBaseRefresh.h"
+#import "LTxBaseTableViewCell.h"
 
 #endif /* LTxBase_h */
